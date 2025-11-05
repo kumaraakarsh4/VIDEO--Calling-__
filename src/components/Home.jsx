@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <div className="min-h-screen w-screen bg-linear-to-br from-blue-900 via-purple-900 to-black p-2 sm:p-4">
       <div className="min-h-screen w-full bg-linear-to-br from-gray-900 to-black rounded-3xl sm:rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col lg:flex-row">
-        <div className="hidden lg:flex lg:flex-1 bg-linear-to-br from-purple-600 via-pink-500 to-orange-500 p-8 lg:p-16 flex-col justify-center items-center relative overflow-hidden">
+        <div className="hidden lg:flex lg:flex-1 bg-linear-to-br from-blue-500 via-blue-700 to-orange-500 p-8 lg:p-16 flex-col justify-center items-center relative overflow-hidden">
           <div className="absolute inset-0 opacity-20">
             <div className="absolute top-20 left-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
             <div className="absolute bottom-20 right-20 w-80 h-80 bg-purple-300 rounded-full blur-3xl"></div>
@@ -80,8 +80,8 @@ export default function Home() {
                 <div className="text-xs lg:text-sm text-white/80">Quality</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl lg:text-4xl font-bold text-white mb-2">10+</div>
-                <div className="text-xs lg:text-sm text-white/80">Users</div>
+                <div className="text-3xl lg:text-4xl font-bold text-white mb-2">Adaptive Bitrate </div>
+                <div className="text-xs lg:text-sm text-white/80">Low Latency</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl lg:text-4xl font-bold text-white mb-2">24/7</div>
@@ -94,7 +94,7 @@ export default function Home() {
         <div className="flex-1 bg-white p-6 sm:p-10 lg:p-16 flex flex-col justify-center min-h-screen lg:min-h-0">
           <div className="max-w-lg mx-auto w-full">
             <div className="lg:hidden mb-8 text-center">
-              <div className="w-20 h-20 mx-auto bg-linear-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg mb-4">
+              <div className="w-20 h-20 mx-auto bg-linear-to-br from-blue-600 to-blue-800 rounded-2xl flex items-center justify-center shadow-lg mb-4">
                 <svg
                   className="w-10 h-10 text-white"
                   fill="none"
@@ -115,7 +115,7 @@ export default function Home() {
 
             <div className="hidden lg:block mb-12">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 bg-linear-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg">
+                <div className="w-14 h-14 bg-linear-to-br from-purple-500 to-blue-800 rounded-2xl flex items-center justify-center shadow-lg">
                   <svg
                     className="w-7 h-7 text-white"
                     fill="none"
@@ -132,7 +132,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h2 className="text-4xl font-bold text-gray-900">Start Meeting</h2>
-                  <p className="text-gray-500 text-lg">Create or join instantly</p>
+                  <p className="text-gray-900 text-lg">Create or join instantly</p>
                 </div>
               </div>
             </div>
@@ -290,7 +290,7 @@ export default function Home() {
                   End-to-end encrypted
                 </span>
                 <span className="text-gray-600">
-                  Powered by <strong className="text-purple-600">ZEGOCLOUD</strong>
+                  <strong className="text-purple-500"> &copy; Aakarsh </strong>
                 </span>
               </div>
             </div>
